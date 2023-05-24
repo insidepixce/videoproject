@@ -4,8 +4,8 @@ from flask import Flask, Response
 #(맥 기준으로)pip3 install opencv-python flask 명령어로 flask 설치
 app=Flask(__name__)
 
-camera = cv2.VideoCapture(0)
-#카메라 장치 구별 
+camera = cv2.VideoCapture(0) 
+#카메라 장치 구별(카메라번호, 보통  0)
 
 
 
